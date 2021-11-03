@@ -30,5 +30,5 @@ Simply deactivate and delete the plugin.
  
 
 == Changelog ==
-= 1.0.2 =
+= 1.0.3 =
 * Plugin released. 
