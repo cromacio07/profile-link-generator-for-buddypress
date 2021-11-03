@@ -1,6 +1,6 @@
 === Profile Link Generator for Buddypress ===
 Contributors: Yaglewad Onkar
-Tags: buddypress, community, social network, buddypress profile
+Tags: buddypress, community, social network
 Requires at least: 5.5
 Tested up to: 5.8.1
 Stable tag: 1.0.3
