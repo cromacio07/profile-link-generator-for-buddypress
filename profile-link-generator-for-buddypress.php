@@ -9,7 +9,7 @@
 * License URI:  https://www.gnu.org/licenses/gpl-2.0.html
 **/
 
-function onkar_redirect_2_profile(){
+function profile_link_generator_62(){
 	include_once( ABSPATH . 'wp-admin/includes/plugin.php' );
 	if($_SERVER['REQUEST_URI'] == '/profile/' && is_plugin_active('buddypress/bp-loader.php') && is_user_logged_in()){
 		global $current_user;
@@ -21,4 +21,4 @@ function onkar_redirect_2_profile(){
 		wp_redirect( get_bloginfo('url') . '/wp-login.php/' ); 
 		exit(); }
  }
-add_action('init', 'onkar_redirect_2_profile');
+add_action('init', 'profile_link_generator_62');
